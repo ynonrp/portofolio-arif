@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Arif</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <h1>Miftachudin Arif Hidayatulloh</h1>
+      <p class="tagline">Undergraduate Electrical Engineering — Malang, Jawa Timur</p>
+    </div>
+  </header>
+
+  <!-- SECTION: DESAIN 3D -->
+  <section id="design3d">
+    <div class="container">
+      <div class="section-label">Desain 3D IoT Alat Monitoring Listrik</div>
+      <div class="gallery">
+
+        <div class="card">
+          <div class="card-img">
+            <!-- Ganti src dengan path gambar Anda, contoh: src="images/3d-1.png" -->
+            <img src="img/3d-utama.png" alt="Tampak Utama">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Tampak Utama</div>
+            <div class="card-tags">
+              <span class="tag">Enclosure</span>
+              <span class="tag">3D Render</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="img/3d-detail.png" alt="Tampak Detail">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Tampak Detail</div>
+            <div class="card-tags">
+              <span class="tag">Exploded View</span>
+              <span class="tag">Assembly</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="img/3d-full.png" alt="Perspektif Full">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Perspektif Full</div>
+            <div class="card-tags">
+              <span class="tag">Perspektif</span>
+              <span class="tag">Render</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img">
+            <img src="img/3d-drawing.png" alt="Technical Drawing">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Technical Drawing</div>
+            <div class="card-tags">
+              <span class="tag">Wireframe</span>
+              <span class="tag">Technical</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION: WEB IoT -->
+  <section id="iot-web">
+    <div class="container">
+      <div class="section-label">Web Integrasi IoT</div>
+      <div class="gallery">
+
+        <div class="card card-wide">
+          <div class="browser-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="url">localhost:3000/dashboard</span>
+          </div>
+          <div class="card-img">
+            <img src="img/iot-dashboard.png" alt="Main Dashboard">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Main Dashboard</div>
+            <div class="card-tags">
+              <span class="tag tag-blue">Real-time</span>
+              <span class="tag tag-blue">MQTT</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="browser-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="url">localhost:3000/devices</span>
+          </div>
+          <div class="card-img">
+            <img src="img/iot-devices.png" alt="Device Status">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Device Status</div>
+            <div class="card-tags">
+              <span class="tag tag-blue">Monitoring</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="browser-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="url">localhost:3000/logs</span>
+          </div>
+          <div class="card-img">
+            <img src="img/iot-logs.png" alt="Data Log">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Data Log</div>
+            <div class="card-tags">
+              <span class="tag tag-blue">History</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Miftachudin Arif Hidayatulloh&mdash; <a href="mailto:miftachudinarif12@gmail.com">miftachudinarif12@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
