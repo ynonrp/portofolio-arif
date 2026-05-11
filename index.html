@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Arif</title>
+  <title>Portofolio Arif</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -22,57 +22,70 @@
   <section id="design3d">
     <div class="container">
       <div class="section-label">Desain 3D IoT Alat Monitoring Listrik</div>
+      
+        <div class="card-featured">
+          <div class="card-img">
+            <!-- Ganti src dengan path gambar Anda, contoh: src="images/3d-1.png" -->
+            <img src="img/iot-listrik/3d-utama.png" alt="Tampak Utama">
+          </div>
+          <div class="card-body">
+            <div class="card-title">Main View</div>
+            <div class="card-tags">
+              <span class="tag">Isometric View</span>
+              <span class="tag">3D Assembly</span>
+            </div>
+          </div>
+        </div>
+
       <div class="gallery">
 
         <div class="card">
           <div class="card-img">
-            <!-- Ganti src dengan path gambar Anda, contoh: src="images/3d-1.png" -->
-            <img src="img/3d-utama.png" alt="Tampak Utama">
+            <img src="img/iot-listrik/3d-detail.png" alt="Tampak Detail">
           </div>
           <div class="card-body">
-            <div class="card-title">Tampak Utama</div>
+            <div class="card-title">Top View</div>
             <div class="card-tags">
-              <span class="tag">Enclosure</span>
-              <span class="tag">3D Render</span>
+              <span class="tag">Components</span>
+              <span class="tag">PCB Layout</span>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-img">
-            <img src="img/3d-detail.png" alt="Tampak Detail">
+            <img src="img/iot-listrik/3d-full.png" alt="Perspektif Full">
           </div>
           <div class="card-body">
-            <div class="card-title">Tampak Detail</div>
+            <div class="card-title">Full View</div>
             <div class="card-tags">
-              <span class="tag">Exploded View</span>
-              <span class="tag">Assembly</span>
+              <span class="tag">Case</span>
+              <span class="tag">Outside</span>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-img">
-            <img src="img/3d-full.png" alt="Perspektif Full">
+            <img src="img/iot-listrik/3d-case.png" alt="Detail Case">
           </div>
           <div class="card-body">
-            <div class="card-title">Perspektif Full</div>
+            <div class="card-title">Case Detail</div>
             <div class="card-tags">
-              <span class="tag">Perspektif</span>
-              <span class="tag">Render</span>
+              <span class="tag">Structure</span>
+              <span class="tag">Mounting</span>
             </div>
           </div>
         </div>
 
         <div class="card">
           <div class="card-img">
-            <img src="img/3d-case.png" alt="Detail Case">
+            <img src="img/iot-listrik/3d-tutup.png" alt="Detail Case">
           </div>
           <div class="card-body">
-            <div class="card-title">Detail Case</div>
+            <div class="card-title">Case Cover</div>
             <div class="card-tags">
-              <span class="tag">Wireframe</span>
-              <span class="tag">Technical</span>
+              <span class="tag">Top Cover</span>
             </div>
           </div>
         </div>
@@ -82,69 +95,33 @@
   </section>
 
   <!-- SECTION: WEB IoT -->
-  <section id="iot-web">
-    <div class="container">
-      <div class="section-label">Web Integrasi IoT</div>
-      <div class="gallery">
+  <!-- SECTION: WEB IoT -->
+<section id="iot-web">
+  <div class="container">
+    <div class="section-label">Web Integrasi IoT</div>
 
-        <div class="card card-wide">
-          <div class="browser-bar">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
-            <span class="url">localhost:3000/dashboard</span>
-          </div>
-          <div class="card-img">
-            <img src="img/iot-dashboard.png" alt="Main Dashboard">
-          </div>
-          <div class="card-body">
-            <div class="card-title">Main Dashboard</div>
-            <div class="card-tags">
-              <span class="tag tag-blue">Real-time</span>
-              <span class="tag tag-blue">MQTT</span>
-            </div>
-          </div>
+    <div class="card-featured">
+      <div class="browser-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="url">https://website-dp.vercel.app</span>
+      </div>
+      <div class="card-img">
+        <img src="img/web-kebun/web-dashboard.png" alt="Main Dashboard">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Dashboard — Monitoring Kebun</div>
+        <div class="card-tags">
+          <span class="tag tag-blue">Real-time</span>
+          <span class="tag tag-blue">MQTT</span>
+          <a href="https://website-dp.vercel.app/" target="_blank" class="tag tag-link">↗ Buka Web</a>
         </div>
-
-        <div class="card">
-          <div class="browser-bar">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
-            <span class="url">localhost:3000/devices</span>
-          </div>
-          <div class="card-img">
-            <img src="img/iot-devices.png" alt="Device Status">
-          </div>
-          <div class="card-body">
-            <div class="card-title">Device Status</div>
-            <div class="card-tags">
-              <span class="tag tag-blue">Monitoring</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="browser-bar">
-            <span class="dot red"></span>
-            <span class="dot yellow"></span>
-            <span class="dot green"></span>
-            <span class="url">localhost:3000/logs</span>
-          </div>
-          <div class="card-img">
-            <img src="img/iot-logs.png" alt="Data Log">
-          </div>
-          <div class="card-body">
-            <div class="card-title">Data Log</div>
-            <div class="card-tags">
-              <span class="tag tag-blue">History</span>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
-  </section>
+
+  </div>
+</section>
 
   <!-- FOOTER -->
   <footer>

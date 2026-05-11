@@ -89,8 +89,12 @@ section {
   transform: translateY(-2px);
 }
 
-.card-wide {
-  grid-column: span 2;
+.card-featured {
+  margin-bottom: 1rem;
+}
+
+.card-featured .card-img{
+  aspect-ratio: 16/9;
 }
 
 /* CARD IMAGE */
@@ -103,10 +107,6 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.card-wide .card-img {
-  aspect-ratio: 16/9;
 }
 
 .card-img img {
@@ -156,6 +156,18 @@ section {
   background: rgba(0, 170, 255, 0.1);
   border-color: rgba(0, 170, 255, 0.2);
   color: var(--accent-blue);
+}
+
+.tag-link {
+  background: rgba(0, 229, 160, 0.1);
+  border-color: rgba(0, 229, 160, 0.2);
+  color: var(--accent);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tag-link:hover {
+  background: rgba(0, 229, 160, 0.2);
 }
 
 /* BROWSER BAR */
